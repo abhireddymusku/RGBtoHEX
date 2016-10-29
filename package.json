@@ -1,13 +1,13 @@
 {
 	"name": "RGBtoHex",
-	"version": "0.1",
+	"version": "1.0.0",
 	"description": "Beautiful RGB to HEX color converter and yes Vice-versa too.",
 	"author": "Abhi Reddy Musku",
 	"license": "MIT",
 	"private": true,
 	"repository": {
 	"type": "git",
-	"url": "https://github.com",
+	"url": "https://github.com/abhireddymusku/RGBtoHEX",
 	"main": "dist/bundle.js"
 	},
 	"dependencies":{
@@ -25,4 +25,5 @@
     "scripts": {
     "start": "npm run watch",
     "watch": "watchify -t 6to5ify ./src/app.js -o ./dist/bundle.js -v"
+}
 }
